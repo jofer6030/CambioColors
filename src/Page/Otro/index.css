@@ -1,0 +1,37 @@
+.cuadro {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-rojo {
+  background-color: rgb(248, 79, 79);
+}
+.btn-amarillo {
+  background-color: rgb(180, 180, 3);
+}
+.btn-azul {
+  background-color: rgb(86, 86, 248);
+}
+.btn-rojo:hover {
+  background-color: rgb(158, 5, 5);
+}
+.btn-amarillo:hover {
+  background-color: rgb(121, 121, 2);
+}
+.btn-azul:hover {
+  background-color: rgb(2, 2, 134);
+}
